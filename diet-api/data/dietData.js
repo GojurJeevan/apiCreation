@@ -1,5 +1,6 @@
 const dietItems = [
   {
+    id:1,
     name: 'Butter Chicken',
     region: 'South Asia',
     country: 'India',
@@ -12,6 +13,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&q=80'
   },
   {
+    id:2,
     name: 'Biryani',
     region: 'South Asia',
     country: 'India',
@@ -24,6 +26,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&q=80'
   },
   {
+    id:3,
     name: 'Paneer Tikka',
     region: 'South Asia',
     country: 'India',
@@ -36,6 +39,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=80'
   },
   {
+    id:4,
     name: 'Masala Dosa',
     region: 'South Asia',
     country: 'India',
@@ -48,6 +52,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1630383249896-424e482df921?w=400&q=80'
   },
   {
+    id:5,
     name: 'Ramen',
     region: 'East Asia',
     country: 'Japan',
@@ -60,6 +65,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&q=80'
   },
   {
+    id:6,
     name: 'Sushi',
     region: 'East Asia',
     country: 'Japan',
@@ -72,6 +78,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1553621042-f6e147245754?w=400&q=80'
   },
   {
+    id:7,
     name: 'Peking Duck',
     region: 'East Asia',
     country: 'China',
@@ -84,6 +91,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1518492104633-130d0cc84637?w=400&q=80'
   },
   {
+    id:8,
     name: 'Kung Pao Chicken',
     region: 'East Asia',
     country: 'China',
@@ -96,6 +104,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400&q=80'
   },
   {
+    id:9,
     name: 'Bibimbap',
     region: 'East Asia',
     country: 'South Korea',
@@ -108,6 +117,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?w=400&q=80'
   },
   {
+    id:10,
     name: 'Pad Thai',
     region: 'Southeast Asia',
     country: 'Thailand',
@@ -120,6 +130,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400&q=80'
   },
   {
+    id:11,
     name: 'Pho',
     region: 'Southeast Asia',
     country: 'Vietnam',
@@ -132,6 +143,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400&q=80'
   },
   {
+    id:12,
     name: 'Nasi Goreng',
     region: 'Southeast Asia',
     country: 'Indonesia',
@@ -144,6 +156,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400&q=80'
   },
   {
+    id:13,
     name: 'Shawarma',
     region: 'Middle East',
     country: 'Lebanon',
@@ -156,6 +169,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=400&q=80'
   },
   {
+    id:14,
     name: 'Hummus',
     region: 'Middle East',
     country: 'Lebanon',
@@ -168,6 +182,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&q=80'
   },
   {
+    id:15,
     name: 'Falafel',
     region: 'Middle East',
     country: 'Egypt',
@@ -180,6 +195,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1593001872095-7d5b3868fb1d?w=400&q=80'
   },
   {
+    id:16,
     name: 'Margherita Pizza',
     region: 'Europe',
     country: 'Italy',
@@ -192,6 +208,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&q=80'
   },
   {
+    id:17,
     name: 'Pasta Carbonara',
     region: 'Europe',
     country: 'Italy',
@@ -204,6 +221,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&q=80'
   },
   {
+    id:18,
     name: 'Croissant',
     region: 'Europe',
     country: 'France',
@@ -216,6 +234,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80'
   },
   {
+    id:19,
     name: 'Paella',
     region: 'Europe',
     country: 'Spain',
@@ -228,6 +247,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=400&q=80'
   },
   {
+    id:20,
     name: 'Schnitzel',
     region: 'Europe',
     country: 'Germany',
@@ -240,6 +260,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1599921841143-819065a55cc6?w=400&q=80'
   },
   {
+    id:21,
     name: 'Tacos al Pastor',
     region: 'Americas',
     country: 'Mexico',
@@ -252,6 +273,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80'
   },
   {
+    id:22,
     name: 'Cheeseburger',
     region: 'Americas',
     country: 'USA',
@@ -264,6 +286,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80'
   },
   {
+    id:23,
     name: 'Feijoada',
     region: 'Americas',
     country: 'Brazil',
@@ -276,6 +299,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80'
   },
   {
+    id:24,
     name: 'Ceviche',
     region: 'Americas',
     country: 'Peru',
@@ -288,6 +312,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=400&q=80'
   },
   {
+    id:25,
     name: 'Poutine',
     region: 'Americas',
     country: 'Canada',
@@ -300,6 +325,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?w=400&q=80'
   },
   {
+    id:26,
     name: 'Jollof Rice',
     region: 'Africa',
     country: 'Ghana/Nigeria',
@@ -312,6 +338,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=400&q=80'
   },
   {
+    id:27,
     name: 'Injera with Tibs',
     region: 'Africa',
     country: 'Ethiopia',
@@ -324,6 +351,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80'
   },
   {
+    id:28,
     name: 'Tagine',
     region: 'Africa',
     country: 'Morocco',
@@ -336,6 +364,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=400&q=80'
   },
   {
+    id:29,
     name: 'Bobotie',
     region: 'Africa',
     country: 'South Africa',
@@ -348,6 +377,7 @@ const dietItems = [
     image: 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80'
   },
   {
+    id:30,
     name: 'Borscht',
     region: 'Europe',
     country: 'Ukraine',
