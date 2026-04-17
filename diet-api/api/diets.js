@@ -1,8 +1,19 @@
 import dietItems from "../data/dietData.js";
 
 export default function handler(req, res) {
+  // ✅ CORS HEADERS (IMPORTANT)
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
   const { method, query } = req;
 
+  // ✅ Handle preflight request (VERY IMPORTANT for POST)
+  if (method === "OPTIONS") {
+    return res.status(200).end();
+  }
+
+  /* ------------ GET REQUESTS ------------ */
   if (method === "GET") {
     let result = [...dietItems];
 
@@ -36,6 +47,7 @@ export default function handler(req, res) {
     return res.status(200).json(result);
   }
 
+  /* ------------ POST REQUESTS ------------ */
   if (method === "POST") {
     const newItem = req.body;
 
